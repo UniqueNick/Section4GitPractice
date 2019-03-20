@@ -1,4 +1,7 @@
 public with sharing class Section3SOQLPractice {
+    public static Boolean methodB() {
+       return false;
+    }
     public static void queries() {
         List<Contact> contactQuery = new List<Contact>();
         List<Opportunity> opportunityQuery = new List<Opportunity>();
